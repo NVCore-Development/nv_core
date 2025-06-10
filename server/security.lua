@@ -1,6 +1,6 @@
 local resName = GetCurrentResourceName()
 if Config.EnforceResourceName ~= resName then
-    error("BAA LOCK - Resource must be named '" .. Config.EnforceResourceName .. "' not '" .. resName .. "'")
+    error("nv_core - Resource must be named '" .. Config.EnforceResourceName .. "' not '" .. resName .. "'")
 end
 
 AddEventHandler("onResourceStart", function(res)

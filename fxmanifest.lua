@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Pink Sheep Development 🐑'
+author 'Nova Framework Team'
 description 'nv_core – Core of Nova Framework'
 version '1.0.0'
 
@@ -9,8 +9,8 @@ lua54 'yes'
 
 shared_scripts {
     '@ox_lib/init.lua',
-    'shared/*.lua',
     'config/*.lua',
+    'shared/*.lua',
 }
 
 client_scripts {
